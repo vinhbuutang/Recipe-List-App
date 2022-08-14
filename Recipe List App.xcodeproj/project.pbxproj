@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA581BD428A7576A00B2D531 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA581BD328A7576A00B2D531 /* RecipeDetailView.swift */; };
+		AA581BD628A8AAF500B2D531 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA581BD528A8AAF300B2D531 /* RecipeTabView.swift */; };
 		AAC21E4828A6944900564D8D /* Recipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC21E4728A6944900564D8D /* Recipe_List_App.swift */; };
 		AAC21E4A28A6944900564D8D /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC21E4928A6944900564D8D /* RecipeListView.swift */; };
 		AAC21E4C28A6944E00564D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC21E4B28A6944E00564D8D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		AA581BD328A7576A00B2D531 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		AA581BD528A8AAF300B2D531 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		AAC21E4428A6944800564D8D /* Recipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC21E4728A6944900564D8D /* Recipe_List_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_App.swift; sourceTree = "<group>"; };
 		AAC21E4928A6944900564D8D /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		AAC21E5528A6952500564D8D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AA581BD528A8AAF300B2D531 /* RecipeTabView.swift */,
 				AAC21E4928A6944900564D8D /* RecipeListView.swift */,
 				AA581BD328A7576A00B2D531 /* RecipeDetailView.swift */,
 			);
@@ -199,6 +202,7 @@
 				AAC21E4A28A6944900564D8D /* RecipeListView.swift in Sources */,
 				AAC21E4828A6944900564D8D /* Recipe_List_App.swift in Sources */,
 				AAC21E6128A6E01500564D8D /* DataService.swift in Sources */,
+				AA581BD628A8AAF500B2D531 /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
